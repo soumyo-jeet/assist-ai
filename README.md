@@ -122,8 +122,6 @@ You are free to use, modify, and distribute this project for personal or commerc
 ## 👤 Maintainer
 
 **Developed by:** [Soumyo Jeet](https://github.com/soumyo-jeet)
-Project by Team Alphabet
-
 ---
 
 ## 🌟 Show Your Support
