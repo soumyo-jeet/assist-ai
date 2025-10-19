@@ -1,13 +1,23 @@
 import { clerkMiddleware } from "@clerk/nextjs/server";
 
-export default clerkMiddleware({
+export function activityLogger(req) {
+  const url = req.nextUrl.pathname;
+  const method = req.method;
+  const timestamp = new Date().toISOString();
+  console.log(`[User Activity] ${method} ${url} at ${timestamp}`);
+}
+
+export default function middleware(req) {
+  activityLogger(req); // Log the request
+  return clerkMiddleware({
   publicRoutes: [
     '/',
     '/sign-in(.*)',
     '/sign-up(.*)',
     '/api(.*)',
   ],
-});
+ })(req);
+}
 
 export const config = {
   matcher: [
