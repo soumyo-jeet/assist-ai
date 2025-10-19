@@ -86,29 +86,7 @@ Go to `http://localhost:3000` to view the app.
 ---
 
 ## 👥 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-1. **Fork** this repo
-2. **Clone** your fork locally
-
-   ```bash
-   git clone https://github.com/your-username/AssistAI.git
-   cd AssistAI
-   ```
-3. **Create a new branch**
-
-   ```bash
-   git checkout -b your-feature-branch
-   ```
-4. **Make changes** and commit
-
-   ```bash
-   git add .
-   git commit -m "Add: your feature or fix"
-   git push origin your-feature-branch
-   ```
-5. **Open a Pull Request** and describe your changes.
+Please go through [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ---
 
@@ -121,7 +99,17 @@ You are free to use, modify, and distribute this project for personal or commerc
 
 ## 👤 Maintainer
 
-**Developed by:** [Soumyo Jeet](https://github.com/soumyo-jeet)
+**Developed by:**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/soumyo-jeet">
+        <img src="https://avatars.githubusercontent.com/u/181663403?s=400&u=edf6cd127172b4ab44b923ce66203cee26917073&v=4" width="80;" alt="Soumyo Jeet"/>
+        <br />
+        <p><b>Soumyo Jeet</b></p>
+      </a>
+    </td>
+</table>
 ---
 
 ## 🌟 Show Your Support
