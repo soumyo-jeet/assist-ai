@@ -34,6 +34,12 @@ An AI-powered assistant to supercharge your **career journey** — from building
 ```
 
 AssistAI/
+└── .github/
+    └── ISSUE_TEMPLATE/
+        ├── bug_report.md
+        ├── feature_request.md
+        └── enhancement.md
+    └── PULL_REQUEST_TEMPLATE.md
 ├── app/                # Pages and routes (Next.js App Router)
 ├── components/         # Reusable UI components
 ├── datas/              # Static and seeded data
