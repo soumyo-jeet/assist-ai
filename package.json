@@ -30,6 +30,7 @@
     "@uiw/react-markdown-editor": "^6.1.2",
     "@uiw/react-md-editor": "^4.0.5",
     "autoprefixer": "^10.4.21",
+    "browserslist": "^4.26.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
