@@ -116,6 +116,20 @@ You are free to use, modify, and distribute this project for personal or commerc
       </a>
     </td>
 </table>
+
+---
+
+
+## ✨ Contributors
+
+#### Thanks to all the wonderful contributors 💖
+
+<a href="https://github.com/soumyo-jeet/assist-ai/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=soumyo-jeet/assist-ai" />
+</a>
+
+#### See full list of contributor contribution [Contribution Graph](https://github.com/soumyo-jeet/assist-ai/graphs/contributors)  
+
 ---
 
 ## 🌟 Show Your Support
