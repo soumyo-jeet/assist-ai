@@ -31,26 +31,44 @@ An AI-powered assistant to supercharge your **career journey** — from building
 
 ## 📁 Project Structure
 
-```
-
-AssistAI/
-└── .github/
-    └── ISSUE_TEMPLATE/
-        ├── bug_report.md
-        ├── feature_request.md
-        └── enhancement.md
-    └── PULL_REQUEST_TEMPLATE.md
-├── app/                # Pages and routes (Next.js App Router)
-├── components/         # Reusable UI components
-├── datas/              # Static and seeded data
-├── hooks/              # Custom React hooks
-├── lib/                # Utility functions and DB config
-├── prisma/             # Prisma schema and database config
-├── public/             # Static assets like images/icons
-├── actions/            # Server-side logic (API handlers)
-├── middleware.ts       # Auth and route guards
-├── next.config.mjs     # App configuration
-└── package.json        # Dependencies and scripts
+```plaintext
+assist-ai/                   # Root project folder
+├─ .github/                  # GitHub-related configuration
+│  ├─ ISSUE_TEMPLATE/        # Templates for GitHub issues
+│  ├─ workflows/             # GitHub Actions workflows
+│  └─ PULL_REQUEST_TEMPLATE.md  # PR template
+├─ actions/                  # Custom GitHub or Next.js actions
+├─ app/                      # Main application folder
+│  ├─ authR/                 # Authentication-related routes
+│  └─ mainR/                 # Main routes
+├─ api/                      
+│  └─ inngest/               # API routes for Inngest integration
+├─ components/               # React components
+├─ datas/                    # Data files / JSON / static data
+├─ hooks/                    # Custom React hooks
+├─ lib/                      # Utility functions or libraries
+├─ prisma/                   # Prisma ORM related files
+│  ├─ migrations/            # Database migrations
+│  └─ schema.prisma          # Prisma schema
+├─ public/                   # Public assets (images, fonts, favicon)
+│  └─ favicon.ico            # Favicon file
+├─ _not-found.jsx            # 404 page
+├─ globals.css               # Global CSS styles
+├─ layout.js                 # Main layout component
+├─ page.js                   # Main page entry
+├─ components.json           # Component configuration JSON
+├─ eslint.config.mjs         # ESLint configuration
+├─ jsconfig.json             # JS/TS configuration for paths
+├─ middleware.js             # Middleware for app
+├─ next.config.mjs           # Next.js configuration
+├─ package-lock.json         # npm lock file
+├─ package.json              # npm package file
+├─ postcss.config.mjs        # PostCSS configuration
+├─ vercel.json               # Vercel deployment configuration
+├─ .gitignore                # Files/folders to ignore in git
+├─ LICENSE                   # License file
+├─ CONTRIBUTING.md           # Contribution guidelines
+└─ README.md                 # Project README file
 
 ````
 
