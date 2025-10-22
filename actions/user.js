@@ -10,9 +10,15 @@ export async function updateUser(data) {
   if (!userId) throw new Error("Unauthorized");
 
   // Validate input
-  if (!data.industry || !data.experience) {
+    // Validate input
+  if (!data.industry || data.experience === undefined || data.experience === null) {
     throw new Error("Industry and experience are required");
   }
+
+  if (data.experience === 0) {
+    throw new Error("This platform is designed for professionals. We currently do not support accounts with 0 years of experience.");
+  }
+
 
   try {
     const user = await db.user.findUnique({
