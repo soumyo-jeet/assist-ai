@@ -32,7 +32,7 @@ Follow these simple steps to make your first contribution:
 1. **Fork** this repository  
 2. **Clone** your fork to your local system  
    ```bash
-   git clone https://github.com/your-username/AssistAI.git
+   git clone https://github.com/soumyo-jeet/assist-ai.git
    cd AssistAI
    ```
 3. Create a new branch for your feature or fix
