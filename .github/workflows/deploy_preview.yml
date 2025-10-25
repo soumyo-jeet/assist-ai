@@ -20,8 +20,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build Project
-        run: npm run build
+      - name: Build with Vercel CLI
+        run: npx vercel build
 
       - name: Deploy to Vercel (Preview)
         id: vercel-deploy
@@ -30,10 +30,8 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          working-directory: ./
-          scope: ${{ secrets.VERCEL_ORG_ID }}
           github-comment: true
-          vercel-args: '--prebuilt' # optional: faster build using your local build output
+          vercel-args: '--prebuilt'
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 
