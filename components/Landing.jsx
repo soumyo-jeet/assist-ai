@@ -153,7 +153,7 @@ const Landing = () => {
                 className="group relative px-10 py-7 text-lg font-semibold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:shadow-2xl hover:shadow-purple-600/20 transition-all duration-300 overflow-hidden text-white hover:text-white"
               >
                 <span className="relative z-10 flex items-center">
-                  Get Started Free
+                  Start for Free
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
