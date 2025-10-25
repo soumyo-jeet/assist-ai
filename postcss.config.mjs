@@ -1,9 +1,9 @@
-import autoprefixer from "autoprefixer";
-
-const config = {
-  plugins: ["@tailwindcss/postcss",
-  autoprefixer(),         //New Feature: Automatically add vendor prefixes
-  ],
+// PostCSS configuration using plugin names/objects.
+// Next.js requires plugins to be provided as strings or objects
+// instead of functions imported directly.
+export default {
+  plugins: {
+    "@tailwindcss/postcss": {},
+    autoprefixer: {},
+  },
 };
-
-export default config;
