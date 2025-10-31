@@ -63,6 +63,8 @@ export const resumeSchema = z.object({
   experience: z.array(entrySchema),
   education: z.array(entrySchema),
   projects: z.array(entrySchema),
+  template: z.string().default("modern"),
+  sectionOrder: z.array(z.string()).default(["contact", "summary", "experience", "education", "skills", "projects"]),
 });
 
 export const coverLetterSchema = z.object({
