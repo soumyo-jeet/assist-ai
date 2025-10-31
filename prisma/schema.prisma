@@ -50,6 +50,8 @@ model Resume {
   content     String    @db.Text // Markdown content
   atsScore    Float?
   feedback    String?
+  template    String    @default("modern") // Template type: modern, classic, creative
+  sectionOrder Json[]   // Array of section IDs in display order
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
 }
